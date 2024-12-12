@@ -1,0 +1,10 @@
+current_health=0;
+if(room==Mole){
+	current_health=global.mhealth;
+}
+if(room==Spider){
+	current_health=global.shealth;
+}
+if(room==Wasp||room==Wasp_50){
+	current_health=global.whealth;
+}

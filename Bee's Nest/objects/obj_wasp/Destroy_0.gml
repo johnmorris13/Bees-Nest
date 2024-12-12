@@ -1,0 +1,1 @@
+global.bosses+=1;

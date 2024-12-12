@@ -1,0 +1,10 @@
+if(room==Wasp_waiting){
+	alarm[1]=room_speed*1;
+}
+if(room==Wasp_title){
+	alarm[1]=room_speed*1;
+}
+if(room==Wasp_50){
+	obj_wasp.sprite_index=spr_boss_wasp;
+	alarm[1]=room_speed*2;
+}

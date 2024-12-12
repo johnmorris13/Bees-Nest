@@ -1,0 +1,13 @@
+if(obj_player.direction=0&&(room!=Wasp&&room!=Wasp_50)){
+	speed=4;
+	image_xscale=1;
+}else{
+	speed=-4;
+	image_xscale=-1;
+}
+if(room==Wasp||room==Wasp_50){
+	speed=4;
+	image_xscale=1;
+}
+damage=global.dmg;
+alarm[0]=1.5*room_speed;

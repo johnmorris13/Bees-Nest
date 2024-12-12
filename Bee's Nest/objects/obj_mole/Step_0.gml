@@ -1,0 +1,10 @@
+if(global.mhealth<=0){
+	instance_destroy();
+}
+if(global.mhealth<=40&&instance_number(obj_stalactite)==0){
+	instance_create_layer(240,190,"Instances",obj_stalactite);
+	sprite_index=spr_50_mole;
+}
+if(instance_number(obj_mole)>0&&global.health<=0){
+	global.mhealth=100;
+}

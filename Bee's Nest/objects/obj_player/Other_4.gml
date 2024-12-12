@@ -1,0 +1,14 @@
+if(room==Wasp){
+	no_gravity=true
+}
+if(room==Wasp_title||room==Thanks||room==Credits){
+	visible=false;
+}else{
+	visible=true;
+}
+if(room==Hallway){
+	global.jump=0;
+}
+if(room==Hive){
+	global.health=100;
+}

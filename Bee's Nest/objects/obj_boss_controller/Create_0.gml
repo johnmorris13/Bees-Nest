@@ -1,0 +1,13 @@
+boss_health=0;
+if(room==Mole){
+	boss_health=global.mhealth;
+}
+if(room==Spider){
+	boss_health=global.shealth;
+}
+if(room==Wasp){
+	boss_health=global.whealth;
+}if(room==Wasp_50){
+	boss_health=400;
+}
+current_health=0;

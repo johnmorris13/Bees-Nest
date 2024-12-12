@@ -1,0 +1,12 @@
+if(global.health<=0&&room!=Wasp&&room!=Wasp_50){
+	room_goto(Hive);
+	obj_player.x=591;
+	obj_player.y=652;
+	global.health=100;
+}
+if(global.health<=0&&room==Wasp||(global.health<=0&&room=Wasp_50)){
+	room_goto(Hallway);
+	obj_player.x=5785;
+	obj_player.y=187;
+	global.health=100;
+}

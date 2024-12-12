@@ -1,0 +1,9 @@
+if(room==Wasp_waiting){
+	obj_text.sprite_index=spr_letsfly;
+	alarm[4]=room_speed*3;
+}
+if(room==Wasp_50){
+	instance_destroy(obj_wasp);
+	instance_destroy(obj_text);
+	alarm[4]=room_speed*3;
+}

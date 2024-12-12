@@ -1,0 +1,12 @@
+if(room==Wasp_waiting){
+	obj_text.sprite_index=spr_onlyone;
+	alarm[2]=room_speed*3;
+}
+if(room==Wasp_title){
+	instance_destroy(obj_cover);
+	alarm[2]=room_speed*3;
+}
+if(room==Wasp_50){
+	obj_text.sprite_index=spr_wow;
+	alarm[2]=room_speed*4;
+}
